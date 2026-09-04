@@ -12,7 +12,7 @@ import {
 } from 'lucide-react';
 import { createOrder, createPaymentOrder, evaluatePolicy, fetchAgentReadableCatalog, verifyPayment } from '../services/api';
 
-const demoRequest = 'I need 6 laptops for my startup. My budget is ₹6 lakh. Get me the best possible deal.';
+const demoRequest = 'I need 5 laptops for my startup. My budget is ₹5 lakh. Get me the best possible deal.';
 
 const formatCurrency = (amount) => `₹${Number(amount || 0).toLocaleString('en-IN')}`;
 
