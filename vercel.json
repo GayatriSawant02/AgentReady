@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://agentready-5rtz.onrender.com/api/:path*"
+    }
+  ]
+}
